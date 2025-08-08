@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Votação Blockchain</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Sistema de Votação Transparente</h1>
+        <div class="card">
+            <button id="connectButton" type="button">Conectar MetaMask</button>
+            <p id="walletStatus">Sua carteira não está conectada.</p>
+        </div>
+
+        <hr>
+
+        <h2>Candidatos</h2>
+        <div id="candidates-list" class="candidates-container">
+            <p>Conecte sua carteira para ver os candidatos.</p>
+        </div>
+        
+        <p id="feedback"></p>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
