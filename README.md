@@ -78,6 +78,9 @@ Instale as dependências tanto para o ambiente Hardhat quanto para o front-end:
 ```bash
 # Instalar dependências da raiz (Hardhat)
 npm install
+npm install --save-dev @nomicfoundation/hardhat-toolbox
+npx hardhat
+npx hardhat run scripts/deploy.js --network localhost
 
 # Instalar dependências do front-end
 cd front-end
