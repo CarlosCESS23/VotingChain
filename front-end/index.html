@@ -22,8 +22,49 @@
         </div>
         
         <p id="feedback"></p>
+        
+         <h2>Candidatos</h2>
+        <div id="candidates-list" class="candidates-container">
+            <p>Conecte sua carteira para ver os candidatos.</p>
+        </div>
+        
+        <p id="feedback"></p>
+
+        <hr>
+
+        <h2>Ações do Administrador</h2>
+        <div class="card">
+            <button id="endVotingButton">Encerrar Votação</button>
+            <button id="checkWinnerButton">Verificar Vencedor</button>
+        </div>
+
+        <p id="feedback"></p>
+
+        <hr>
+
+        <h2>Gerenciamento da Votação</h2>
+        <div class="card">
+            <h4>1. Criar Votação</h4>
+            <input type="text" id="pollTitleInput" placeholder="Título da Votação">
+            <button id="createPollButton">Criar Votação</button>
+        </div>
+        <div class="card">
+            <h4>2. Adicionar Candidato (para Votação 1)</h4>
+            <input type="text" id="candidateNameInput" placeholder="Nome do Candidato">
+            <button id="addCandidateButton">Adicionar Candidato</button>
+        </div>
+        <div class="card">
+            <h4>3. Iniciar Votação (Votação 1)</h4>
+            <button id="startVotingButton">Iniciar Votação</button>
+        </div>
+        
+        <hr>
+
+        <h2>Ações do Administrador</h2>
+        ```
     </div>
 
+   
     <script type="module" src="./main.js"></script>
 </body>
 </html>
